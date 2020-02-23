@@ -71,3 +71,7 @@ C:\Users\resid\source\repos\Ecomm\Ecomm.Web\obj\Debug\Ecomm.Web.csprojAssemblyRe
 C:\Users\resid\source\repos\Ecomm\Ecomm.Web\obj\Debug\Ecomm.Web.csproj.CopyComplete
 C:\Users\resid\source\repos\Ecomm\Ecomm.Web\obj\Debug\Ecomm.Web.dll
 C:\Users\resid\source\repos\Ecomm\Ecomm.Web\obj\Debug\Ecomm.Web.pdb
+C:\Users\resid\source\repos\Ecomm\Ecomm.Web\bin\EntityFramework.dll
+C:\Users\resid\source\repos\Ecomm\Ecomm.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\resid\source\repos\Ecomm\Ecomm.Web\bin\EntityFramework.xml
+C:\Users\resid\source\repos\Ecomm\Ecomm.Web\bin\EntityFramework.SqlServer.xml
