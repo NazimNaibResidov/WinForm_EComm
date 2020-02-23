@@ -14,7 +14,7 @@ namespace Ecomm.Web.Models
         public int PropertyId { get; set; }
         public Property Property { get; set; }
         [Required]
-        [StringLength(maximumLength:100,MinimumLength =1)]
+        [StringLength(maximumLength:500,MinimumLength =1)]
         public string value { get; set; }
     }
 }

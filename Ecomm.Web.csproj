@@ -190,6 +190,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Discount.cs" />
     <Compile Include="Models\Marka.cs" />
     <Compile Include="Models\Model.cs" />
     <Compile Include="Models\Product.cs" />
