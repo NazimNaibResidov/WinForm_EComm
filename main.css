@@ -1,0 +1,10 @@
+﻿div{
+    display:inline-block;
+    width:200px;
+    height:200px;
+    background-color:green;
+    margin-bottom:2px;
+}
+.bir{
+    transform:rotate(.5)
+}
