@@ -6,16 +6,16 @@ using System.Web;
 
 namespace Ecomm.Web.Models
 {
-    public class Category
+    public class Marka
     {
-        public Category()
+        public Marka()
         {
-            subCategories = new HashSet<SubCategory>();
+            Models = new HashSet<Model>();
         }
         public int Id { get; set; }
         [Required]
         [StringLength(maximumLength: 30, MinimumLength = 3)]
         public string Name { get; set; }
-        public ICollection<SubCategory> subCategories { get; set; }
+        public ICollection<Model> Models { get; set; }
     }
 }
