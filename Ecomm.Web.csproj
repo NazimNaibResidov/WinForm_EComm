@@ -193,6 +193,8 @@
     <Compile Include="Models\Marka.cs" />
     <Compile Include="Models\Model.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\Productproepty.cs" />
+    <Compile Include="Models\Property.cs" />
     <Compile Include="Models\Review.cs" />
     <Compile Include="Models\State.cs" />
     <Compile Include="Models\SubCategory.cs" />
