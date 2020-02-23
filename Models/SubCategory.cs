@@ -8,11 +8,16 @@ namespace Ecomm.Web.Models
 {
     public class SubCategory
     {
+        public SubCategory()
+        {
+            Markas = new HashSet<Marka>();
+        }
         public int Id { get; set; }
         [Required]
         [StringLength(maximumLength:30,MinimumLength =3)]
         public string Name { get; set; }
         public int CategoryId { get; set; }
         public Category Category { get; set; }
+        public ICollection<Marka> Markas { get; set; }
     }
 }

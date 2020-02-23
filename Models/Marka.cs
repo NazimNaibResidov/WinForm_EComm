@@ -10,12 +10,14 @@ namespace Ecomm.Web.Models
     {
         public Marka()
         {
-            Models = new HashSet<Model>();
+            Models=new HashSet<Model>();
         }
         public int Id { get; set; }
         [Required]
         [StringLength(maximumLength: 30, MinimumLength = 3)]
         public string Name { get; set; }
         public ICollection<Model> Models { get; set; }
+        public int SubCategoryId { get; set; }
+        public SubCategory SubCategory { get; set; }
     }
 }
